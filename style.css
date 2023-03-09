@@ -1,0 +1,72 @@
+#todos > .todo-input-container > .add-item{
+  position: absolute;
+  right: 39%;
+  top: 32%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: gold;
+  line-height: 40px;
+  color: white;
+  cursor: pointer;
+}
+#todos > .todo-input-container > .add-item:nth-child(2){
+  right: 41%;
+  background-color:#3ec282;
+}
+#todos > .todo-list-container{
+  list-style: none;
+  margin: 10px 0 0;
+}
+#todos > .todo-list-container .todo-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+#todos > .todo-list-container .todo-list .todo-item{
+  width: 100%;
+  background-color: white;
+  color: black;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+#todos > .todo-list-container .todo-list .button{
+  position: absolute;
+  right: 0;
+}
+#todos > .todo-list-container .todo-list .button button{
+  width: 40px;
+  height: 50px;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+#todos > .todo-list-container .todo-list .button .completed{
+  background-color: cyan;
+}
+#todos > .todo-list-container .todo-list .button .trash{
+  background-color: gold;
+}
+
+#todos > .todo-list-container .todo-list .button button i{
+  pointer-events: none;
+}
+.fall{
+  opacity: 0 !important;
+  transform: translateY(30px);
+  transition: .5s;
+}
+.line_through{
+  text-decoration: line-through;
+  opacity: 0.7;
+  transition: .3s;
+}
+
+.editBtn{
+  background-color: violet;
+}

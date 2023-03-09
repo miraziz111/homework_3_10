@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/525fd5b530.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-r from-violet-500 to-fuchsia-500">
+  
+
+    <div   id="todos" class="w-1/2 py-32 mx-auto max-w-[800px] todos" >
+      <div class="heading text-center mb-8 text-2xl text-yellow-300">
+        <h1>WORDS</h1>
+      </div>
+      <div class="todo-input-container ml-72">
+        <input class="todo_input px-3  py-2 text-xl" type="text" placeholder="So'z kiriting..." style="border: none;">
+        <i class="fas fa-plus add-item"></i>
+        <i class="fas fa-trash-alt add-item deleteBtn" onclick="deleteAllElements()"></i>
+      </div>  
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
