@@ -1,7 +1,15 @@
+#todos > .todo-input-container{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  
+}
+
+
 #todos > .todo-input-container > .add-item{
   position: absolute;
-  right: 39%;
-  top: 19%;
+  right: 28%;
+  top: 50%;
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
@@ -11,7 +19,7 @@
   cursor: pointer;
 }
 #todos > .todo-input-container > .add-item:nth-child(2){
-  right: 41%;
+  right: 22%;
   background-color:#3ec282;
 }
 #todos > .todo-list-container{
